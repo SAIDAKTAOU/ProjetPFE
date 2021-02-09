@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.projet.alzheimer.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:layout_above="@+id/bottom_panel">
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f40e0e31"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn_login"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#d4528dbc"
+            android:gravity="center"
+            android:onClick="Inscrire"
+            android:text="Inscription"
+            android:textColor="#031b36"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/btn_register"
+            android:layout_toRightOf="@+id/btn_register"
+            android:background="#d4528dbc"
+            android:gravity="center"
+            android:onClick="Connecter"
+            android:text="Connexion"
+            android:textColor="#031b36"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+android:fitsSystemWindows="true"
+android:background="@drawable/back"
+tools:context="com.android.projet.alzheimer.MainActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="100dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp">
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:onClick="Inscrire"
+        android:text="Inscription"
+        android:textColor="#d3eff9"
+        android:background="#cf2970a9"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/btn_register"
+        android:gravity="center"
+        android:onClick="Connecter"
+        android:text="Connexion"
+        android:textColor="#d3eff9"
+        android:background="#cf2970a9"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
+</ScrollView>
+
+
+
